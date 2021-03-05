@@ -1,0 +1,28 @@
+div.containerHome main {
+  align-items: center;
+  background-color: #777;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  filter: contrast(2.5);
+  flex-direction: column;
+  margin-top: 2.5rem;
+  padding: 0 2rem 2rem;
+  width: 24rem;
+}
+
+div.containerHome main:hover {
+  filter: contrast(2.5) brightness(0.9);
+}
+
+div.containerHome main h1 {
+  font-weight: var(--font-weight-primary);
+  font-size: var(--font-size-primary);
+  font-family: var(--font-family-primary);
+  margin: 1rem 0;
+  top: 9rem;
+}
+
+div.containerHome main img {
+  width: 100%;
+}

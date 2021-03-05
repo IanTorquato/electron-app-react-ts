@@ -1,0 +1,29 @@
+div.containerProfile main {
+  align-items: center;
+  background-color: #777;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  filter: contrast(1.2);
+  flex-direction: column;
+  margin-top: 2.5rem;
+  padding: 0 2rem 2rem;
+  width: 24rem;
+}
+
+div.containerProfile main:hover {
+  filter: contrast(1.2) brightness(0.9);
+}
+
+div.containerProfile main h1 {
+  font-weight: var(--font-weight-primary);
+  font-size: var(--font-size-primary);
+  font-family: var(--font-family-primary);
+  margin: 1rem 0;
+  top: 9rem;
+}
+
+div.containerProfile main img {
+  border-radius: 8px;
+  width: 100%;
+}
